@@ -1,5 +1,5 @@
 from ring_doorbell import Ring
-myring = Ring('viralpatel1@gmail.com',"fTqeD|b#pzY3fS@@*QMl")
+myring = Ring("","")
 for doorbell in myring.doorbells:
 
     # listing the last 15 events of any kind
