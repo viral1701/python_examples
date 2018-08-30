@@ -1,5 +1,8 @@
 from ring_doorbell import Ring
-myring = Ring("","")
+myring = Ring('','')
+print(myring.devices)
+
+
 for doorbell in myring.doorbells:
 
     # listing the last 15 events of any kind
